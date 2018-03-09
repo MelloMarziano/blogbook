@@ -1,0 +1,165 @@
+body{
+  background-color: #f7d794;
+}
+
+.caja{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.arriba{
+  height: 60%;
+  background-color: #227093;
+  width: 100vw;
+}
+
+.starte{
+  background-color: #f7f1e3;
+  padding-top: 10px;
+  width: 100vw;
+  height: 40%;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: center;
+  align-items:flex-start;
+
+}
+
+.button{
+  width: 230px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #DDD;
+
+  color:#227093;
+  font-size: 30px;
+
+  display: flex;
+  flex-flow: row wrap;
+
+  justify-content: center;
+  align-items:center;
+
+}
+.button:hover{
+  box-shadow: 0px 0px 10px #000;
+  cursor: pointer;
+  font-size: 32px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .button{
+    width: 130px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #DDD;
+
+    color:#227093;
+    font-size: 15px;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: center;
+    align-items:center;
+
+  }
+
+  .arriba{
+    height: 80%;
+  }
+
+  .starte{
+    padding-top: 20px;
+    height: 20%;
+  }
+
+}
+
+
+
+
+
+
+
+
+/*
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+
+
+@media (min-width: 1281px) {
+
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+
+}
+
+
+
+
+
+*/
